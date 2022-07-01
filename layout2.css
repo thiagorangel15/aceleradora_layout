@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.main{
+    width:850px;
+    height: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header{
+    width:850px;
+    height: 100px;
+    background-color: rgb(47, 117, 223);
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-top: 25px;
+}
+.navbar{
+    width:850px;
+    height:50px;
+    background-color: brown;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.page{
+    display: flex;
+    background-color: rgb(239, 240, 241);
+    
+}
+.left-menu{
+    width: 150px;
+    height: 620px;
+    border-right: 3px dashed red;
+    border-bottom: 2px solid red;
+}
+
+.main-content{
+    width: 550px;
+    height: 620px;
+    border-bottom: 2px solid red;
+    border-right: 3px dashed red;
+}
+.right-menu{
+    width:150px;
+    height:620px;
+    border-bottom: 2px solid red;
+    color: brown;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 25px;
+
+}
+
+.footer{
+    width:850px;
+    height:80px;
+    background-color: rgb(47, 117, 223);
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 60px;
+    padding-left: 10px;
+    list-style-position: outside;
+    
+}
+ul li a:link{
+    color: brown;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+ul li a:hover{
+    color: white;
+}
+
+.formulario{
+    margin: 70px auto;
+    background-color: white;
+    width: 500px;
+    height:450px;   
+}
+
+#link{
+    text-decoration: none;
+}
+
+form{
+    padding-left: 20px;
+    padding-top: 15px;
+    color: rgb(44, 44, 44);
+}
+
+.inputs{
+    width: 450px;
+    height:25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(209, 210, 212)
+}
+
+#textarea{
+    margin-top:5px;
+    margin-bottom: 15px;
+    min-width: 450px;
+    max-width: 450px;
+    min-height: 100px;
+    max-height: 100px;
+    width: 450px;
+    height: 100px;
+    border: 1px solid rgb(209, 210, 212)
+
+}
+
+#submit{
+    width: 450px;
+    border: none;
+    height: 25px;
+    background-color: rgb(47, 117, 223);
+    color: white;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(86, 150, 247);
+}
+
+#checkbox{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.navbar-content{
+    border: none;
+    width: 170px;
+    height: 50px;
+    background-color: brown;
+    cursor: pointer;
+}
+.navbar-content a:link{
+    color: white;
+    text-decoration: none;
+}
+.navbar-content:hover{
+    background-color: rgb(238, 97, 97);
+}
